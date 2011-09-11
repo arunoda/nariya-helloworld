@@ -1,0 +1,17 @@
+{
+    "name": "nariya-helloworld",
+    "version": "0.0.1",
+    "directories": {
+        "lib": "./lib"
+    },
+    "description": "NodeJS distribute deployer",
+    "author": "Arunoda Susiripala <arunoda.susiripala@gmail.com>",
+    "homepage": "https://github.com/arunoda",
+    "dependencies": {
+        "express": ">= 2.4.6"
+    },
+    "devDependencies": {
+        
+    }
+}
+
