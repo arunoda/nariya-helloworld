@@ -1,7 +1,7 @@
 var http = require('http');
 var app = http.createServer(function(req, res) {
 	res.writeHead(200, {'Content-Type': 'text/plain'});
-	res.end('Hello World Nariya');
+	res.end('Hello World Nariya - The Distributed Deployer');
 });
 
 var port = process.argv[2];
