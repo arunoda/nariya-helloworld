@@ -8,6 +8,7 @@
     "author": "Arunoda Susiripala <arunoda.susiripala@gmail.com>",
     "homepage": "https://github.com/arunoda",
     "dependencies": {
+        "express": ">= 2.4.6"
     },
     "devDependencies": {
         
