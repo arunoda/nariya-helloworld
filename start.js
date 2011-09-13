@@ -2,7 +2,7 @@ var express = require('express');
 var app = express.createServer();
 
 app.get('/', function(req, res){
-    res.send('Hello World Using Express - edited via iPad');
+    res.send('Hello World Using Express hello');
 });
 
 var port = process.argv[2];
