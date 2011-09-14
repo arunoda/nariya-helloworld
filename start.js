@@ -1,12 +1,13 @@
 var express = require('express');
 var app = express.createServer();
+var fs = require('fs');
 
 app.get('/', function(req, res){
-    res.send("Yes! It's back. Oh Nariya..");
+	fs.readFile('text.txt', 'utf8', function(err, data) {
+		res.send("The Server Time is " + data);
+	});
 });
 
 var port = process.argv[2];
 app.listen(port);
 console.log('app started on port: %s', port);
-
-//
