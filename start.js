@@ -4,7 +4,7 @@ var fs = require('fs');
 
 app.get('/', function(req, res){
 	fs.readFile('text.txt', 'utf8', function(err, data) {
-		res.send("This is the time " + data);
+		res.send("I've changed it again " + data);
 	});
 });
 
